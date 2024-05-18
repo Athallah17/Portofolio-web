@@ -2,6 +2,7 @@
 
 import React from 'react';
 import projImg1 from "../../assets/img/project-img1.png";
+import { Container } from 'react-bootstrap';
 import './experience.css';
 
 export const Experience = () => {
@@ -41,6 +42,7 @@ export const Experience = () => {
   ];
 
   return (
+    <Container>
     <div className="experience-section" id="experience">
       <h2>Experience</h2>
       <div className="experiences">
@@ -49,11 +51,12 @@ export const Experience = () => {
             <h3>{exp.organization}</h3>
             <h4>{exp.role}</h4>
             <p className="duration">{exp.duration}</p>
-            <p className="description" style={{ whiteSpace: 'pre-line' }}>{exp.description}</p>
+            <p className="experience-description">{exp.description}</p>
             <img src={exp.imgUrl} alt={exp.organization} /> 
           </div>
         ))}
       </div>
     </div>
+  </Container>
   );
 };

@@ -1,21 +1,12 @@
 /* components/experience/Experience.css */
 
 .experience-section {
-  padding: 0 0 50px 0;
+  padding: 50px 0; /* Adjust padding */
   position: relative;
-  text-align: left;
-}
-
-.experience-bx {
-  background: #151515;
-  border-radius: 64px;
-  text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
+  text-align: left; /* Center text */
 }
 
 .experience-section h2 {
-  text-align: center;
   font-size: 35px;
   font-weight: 700;
 }
