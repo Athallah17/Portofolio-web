@@ -1,0 +1,75 @@
+/* components/experience/Experience.css */
+
+.experience-section {
+  padding: 0 0 50px 0;
+  position: relative;
+  text-align: left;
+}
+
+.experience-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.experience-section h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.experiences {
+  display: flex;
+  flex-wrap: wrap; /* Allow experiences to wrap to the next row */
+  gap: 20px; /* Add space between each experience section */
+  justify-content: center; /* Center the experiences horizontally */
+}
+
+.experience-description {
+  white-space: pre-line;
+}
+
+.experience {
+  background-color: #151515;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width: calc(33.333% - 20px); /* Make each experience section take up one-third of the row minus the gap */
+  box-sizing: border-box;
+}
+
+.experience img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px; /* Add space between description and image */
+  border-radius: 10px; /* Apply border radius to the image */
+}
+
+.experience:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(236, 0, 0, 0.2);
+}
+
+.experience h3 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.experience h4 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #b8b8b8;
+}
+
+.experience .duration {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #b8b8b8;
+}
+
+.experience p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
