@@ -32,7 +32,7 @@ export const Experience = () => {
       organization: 'Himmatekkom Goes To School',
       role: 'Volunteer as Teaching Team',
       duration: 'November 2022',
-      description: '•Worked one-on-one and in small groups with elementary students \n• Teaching basic material subjects\n',
+      description: '•Interacting one-on-one and in small groups with elementary students \n• Teaching basic material subjects\n',
       imgUrl: projImg1,
     },
     
