@@ -1,5 +1,6 @@
 .experience-section {
   padding: 50px 0;
+  position: relative;
   text-align: left;
 }
 
@@ -8,6 +9,12 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+}
+
+.experience-section h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
 
 .experience {
@@ -19,6 +26,43 @@
   box-sizing: border-box;
 }
 
+.experience-description {
+  white-space: pre-line;
+}
+
+.experience img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px; /* Add space between description and image */
+  border-radius: 10px; /* Apply border radius to the image */
+}
+
+.experience:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(236, 0, 0, 0.2);
+}
+
+.experience h3 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.experience h4 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #b8b8b8;
+}
+
+.experience .duration {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #b8b8b8;
+}
+
+.experience p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
 /* Responsive styles for mobile devices */
 @media (max-width: 767px) {
   .experience {
