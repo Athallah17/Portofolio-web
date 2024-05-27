@@ -24,10 +24,14 @@
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   width: calc(33.333% - 20px);
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure the space is distributed */
 }
 
 .experience-description {
   white-space: pre-line;
+  flex-grow: 1; /* Allow the description to grow */
 }
 
 .experience img {
@@ -35,6 +39,7 @@
   height: auto;
   margin-top: 20px; /* Add space between description and image */
   border-radius: 10px; /* Apply border radius to the image */
+  align-self: flex-end; /* Ensure the image is at the bottom */
 }
 
 .experience:hover {

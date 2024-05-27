@@ -5,6 +5,7 @@ import projImg1 from "../../assets/img/project-img1.png";
 import bem1 from "../../assets/img/bem1.jpg";
 import bem2 from "../../assets/img/bem2.jpg";
 import hgts from "../../assets/img/hgts.jpg";
+import hgts2 from "../../assets/img/hgts2.JPG";
 import sps from "../../assets/img/sps1.jpg";
 import { Container } from 'react-bootstrap';
 import './experience.css';
@@ -37,6 +38,8 @@ export const Experience = () => {
       duration: 'November 2022',
       description: '•Interacting one-on-one and in small groups with elementary students \n• Teaching basic material subjects\n',
       imgUrl: hgts,
+
+
     },
     {
       organization: 'SPS 126 & 128',
