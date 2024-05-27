@@ -1,7 +1,8 @@
 .banner {
     margin-top: 0;
     padding: 260px 0 100px 0;
-    background-image: url('../../assets/img/backgroundpg.png');
+    background: rgb(23,3,3);
+    background: linear-gradient(180deg, rgba(23,3,3,1) 65%, rgba(21,18,55,1) 93%);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
