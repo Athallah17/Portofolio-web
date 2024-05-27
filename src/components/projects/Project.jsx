@@ -5,6 +5,7 @@ import projImg2 from "../../assets/img/project-img2.png";
 import projImg3 from "../../assets/img/project-img3.png";
 import bj from "../../assets/img/Blackjack.png";
 import helmdall from "../../assets/img/Helmdall.png";
+import sc from "../../assets/img/SocialMedia.png";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
 import TrackVisibility from 'react-on-screen';
 import "./project.css";
@@ -20,7 +21,7 @@ export const Projects = () => {
     {
       title: "Burung Biru",
       description: "Facebook Social Media Clone App. Create With React Native and Firebase. User can Post, Comment, Like, and Share Post. ",
-      imgUrl: projImg2,
+      imgUrl: sc,
     },
     {
       title: "BlackJack Game",
@@ -28,6 +29,38 @@ export const Projects = () => {
       imgUrl: bj,
     },
 
+  ];
+
+  const designs = [
+    {
+      title: "Posters",
+      description: "Design & Development",
+    },
+    {
+      title: "Instagram Post",
+      description: "UI/UX Design",
+      
+    },
+    {
+      title: "Mobile App Interface",
+      description: "App Design",
+      
+    },
+    {
+      title: "Instagram Post Design",
+      description: "Design & Development",
+      
+    },
+    {
+      title: "Website Mockup",
+      description: "UI/UX Design",
+      
+    },
+    {
+      title: "Mobile App Interface",
+      description: "App Design",
+      
+    },
   ];
 
   return (
@@ -65,14 +98,14 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Several Designs I Had Made </p>
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          designs.map((designs, index) => {
                             return (
                               <ProjectCard
                                 key={index}
-                                {...project}
+                                {...designs}
                                 />
                             )
                           })

@@ -4,6 +4,7 @@ import react from "../../assets/img/react.svg";
 import python from "../../assets/img/python.svg";
 import figma from "../../assets/img/figma.svg";
 import cpp from "../../assets/img/cpp.svg";
+import css from "../../assets/img/css.svg";
 import premierepro from "../../assets/img/premierepro.svg";
 import photoshop from "../../assets/img/photoshop.svg";
 
@@ -47,6 +48,10 @@ export const Skills= () => {
                             <div className="item">
                                 <img src={html} alt="html" />
                                 <h5>HTML</h5>
+                            </div>
+                            <div className="item">
+                                <img src={css} alt="cpp" />
+                                <h5>CSS</h5>
                             </div>
                             <div className="item">
                                 <img src={react} alt="react" />
