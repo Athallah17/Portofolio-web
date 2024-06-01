@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../../assets/img/project-img1.png";
 import projImg2 from "../../assets/img/project-img2.png";
 import projImg3 from "../../assets/img/project-img3.png";
+import cre from "../../assets/img/creative.png";
+import poster from "../../assets/img/posters.png";
 import bj from "../../assets/img/Blackjack.png";
 import helmdall from "../../assets/img/Helmdall.png";
 import sc from "../../assets/img/SocialMedia.png";
@@ -33,12 +35,14 @@ export const Projects = () => {
 
   const designs = [
     {
-      title: "Posters",
+      title: "Events Posters",
       description: "Design & Development",
+      imgUrl : poster,
     },
     {
-      title: "Instagram Post",
-      description: "UI/UX Design",
+      title: "Football Posters",
+      description: "Designs",
+      imgUrl : cre,
       
     },
     {
