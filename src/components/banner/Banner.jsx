@@ -59,7 +59,15 @@ export const Banner = () => {
                 <h1>{`Hi! I'm Athallah `} 
                 <h1/>
                 <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>A Computer Engineering student at Institut Teknologi Sepuluh Nopember (ITS). Interested in Game Development, Web Development, and Application Development along with experience in UI/UX, Graphic Design, and Photo/Videography.</p>
+                  <p>
+                  I am a third-year Computer Engineering student at Institut Teknologi Sepuluh Nopember (ITS), specializing in Multimedia and Telematics. My passion for technology has been a driving force since a young age, leading me to set a goal of becoming a Frontend Engineer. I have a strong interest in Web Development, Mobile Development, UI/UX design, and Graphic Design.
+                  </p>
+                  <p>
+                  Throughout my academic journey, I have actively engaged in various projects, gaining proficiency in multiple programming languages, including C/C++, Python, HTML, CSS, React, JavaScript, Kotlin, and Dart. With these technologies has equipped me with a solid foundation in for frontend development, enabling me to create functional and aesthetically pleasing applications.
+                  </p>
+                  <p>
+                  In addition to my technical experience, I am actively involved in social and organizational activities to developed personal growth. Engaging in various social and organizational endeavors has provided me with invaluable opportunities to develop many precious skills, collaborate with many people, and enhance my communication abilities.
+                  </p>
               </div>}
             </TrackVisibility>
           </Col>
